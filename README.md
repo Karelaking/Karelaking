@@ -21,9 +21,7 @@
 <hr/>
 
 <h3 align="left">Connect with me:</h3>
-[![Facebook](https://img.shields.io/badge/Facebook-blue)](https://github.com/Karelaking/BlackHole/blob/main/LICENSE)
-[![Facebook](https://img.shields.io/badge/X-black)](https://github.com/Karelaking/BlackHole/blob/main/LICENSE)
-[![Facebook](https://img.shields.io/badge/Instagram-pink)](https://github.com/Karelaking/BlackHole/blob/main/LICENSE)
+[![Facebook](https://img.shields.io/badge/Facebook-blue)](https://github.com/Karelaking/BlackHole/blob/main/LICENSE)[![Facebook](https://img.shields.io/badge/X-black)](https://github.com/Karelaking/BlackHole/blob/main/LICENSE)[![Facebook](https://img.shields.io/badge/Instagram-pink)](https://github.com/Karelaking/BlackHole/blob/main/LICENSE)
 
 <p align="left">
 </p>
