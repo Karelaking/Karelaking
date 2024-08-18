@@ -12,9 +12,9 @@
 
 <hr/>
 
-### 🔭 I’m currently working on [Private](https://github.com/Karelaking/Private.git)
+<!-- ### 🔭 I’m currently working on [Private](https://github.com/Karelaking/Private.git) -->
 
-### 🌱 I’m currently learning **Flutter**
+### 🌱 I’m currently learning **Flutter | Javascript | Python**
 
 ### 📫 How to reach me **karelaking277@gmail.com**
 
