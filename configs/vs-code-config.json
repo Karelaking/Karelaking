@@ -1,185 +1,257 @@
 {
   "workbench.colorCustomizations": {
-    "titleBar.activeBackground": "#282A36",
-    "titleBar.inactiveBackground": "#282A36",
-    "titleBar.activeForeground": "#F8F8F2",
-    "titleBar.inactiveForeground": "#F8F8F2",
-    "activityBar.background": "#282A36",
-    "activityBar.foreground": "#F8F8F2",
-    "sideBar.background": "#282A36",
-    "sideBar.foreground": "#F8F8F2",
-    "sideBarTitle.foreground": "#F8F8F2",
-    "sideBar.dropBackground": "#44475A",
-    "sideBarStickyScroll.background": "#44475A",
-    "sideBar.border": "#44475A",
-    "sideBarSectionHeader.border": "#44475A",
-    "statusBar.background": "#5f0000",
-    "statusBar.noFolderBackground": "#5f0000",
-    "statusBar.debuggingBackground": "#5f0000",
-    "statusBar.foreground": "#ffffff",
-    "statusBar.debuggingForeground": "#ffffff",
-    "menu.background": "#282A36",
-    "menu.foreground": "#F8F8F2",
-    "menu.selectionBackground": "#44475A",
-    "input.background": "#44475A",
-    "panel.background": "#282a36",
-    "titleBar.border": "#44475A",
-    "editor.background": "#282A36",
-    "editor.foreground": "#F8F8F2",
-    "editor.lineHighlightBackground": "#44475A",
-    "tab.activeBackground": "#50aaff",
-    "tab.activeForeground": "#ffffff",
-    "tab.inactiveBackground": "#282A36",
-    "tab.inactiveForeground": "#ffffff",
-    "editor.selectionBackground": "#50aaff",
-    "editor.selectionForeground": "#ffffff",
-    "tab.border": "#44475A",
-    "editor.findMatchBackground": "#FFB86C",
-    "editor.findMatchForeground": "#ffffff",
-    "editor.findMatchHighlightForeground": "#fffffff1",
-    "editorSuggestWidget.background": "#44475A",
-    "editorSuggestWidget.foreground": "#F8F8F2",
-    "editorSuggestWidget.selectedBackground": "#ffffff",
-    "editorSuggestWidget.selectedForeground": "#44475A",
-    "editorStickyScrollHover.background": "#44475A",
-    "editorGroupHeader.tabsBackground": "#282A36",
-    "dropdown.background": "#44475A",
-    "dropdown.foreground": "#F8F8F2",
-    "dropdown.listBackground": "#44475A",
-    "dropdown.listBorder": "#44475A",
-    "editor.foldGutterIcon.background": "#44475A",
-    "quickInput.background": "#282A36",
-    "keybindingLabel.background": "#44475A",
-    "editor.lineNumber.foreground": "#F8F8F2",
-    "editor.lineNumber.activeForeground": "#ffffff",
-    "editor.selectionHighlightBorder": "#50aaff",
-    "editor.inactiveSelectionHighlightBorder": "#44475A",
-    "editor.cursor.foreground": "#ffffff",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+    "editorOverviewRuler.selectionHighlightForeground": "#0000",
+    "editorOverviewRuler.rangeHighlightForeground": "#0000",
+    "editorOverviewRuler.wordHighlightForeground": "#0000",
+    "editorOverviewRuler.bracketMatchForeground": "#0000",
+    "editorOverviewRuler.findMatchForeground": "#0000",
+    "editorOverviewRuler.modifiedForeground": "#0000",
+    "editorOverviewRuler.deletedForeground": "#0000",
+    "editorOverviewRuler.warningForeground": "#0000",
+    "editorOverviewRuler.addedForeground": "#0000",
+    "editorOverviewRuler.errorForeground": "#0000",
+    "editorOverviewRuler.infoForeground": "#0000",
+    "editorOverviewRuler.border": "#0000",
+    "editorCursor.background": "#000000"
   },
-  "breadcrumbs.enabled": false,
-  "window.menuBarVisibility": "compact",
+  "workbench.navigationControl.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "hidden",
+  "editor.overviewRulerBorder": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
   "editor.mouseWheelZoom": true,
-  "files.autoSave": "afterDelay",
-  "workbench.iconTheme": "dark-minimalist-icons",
-  "workbench.colorTheme": "Default Dark+",
-  "tabnine.experimentalAutoImports": true,
-  "editor.renderWhitespace": "boundary",
-  "editor.wordWrap": "on",
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "editor.codeActions.triggerOnFocusChange": true,
+  "editor.mouseWheelScrollSensitivity": 1,
+  "workbench.editor.mouseBackForwardToNavigate": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Night Owl (No Italics)",
+  "workbench.productIconTheme": "macos-modern",
+  "editor.fontFamily": "Fira Code iScript",
+  "editor.fontLigatures": true,
+  "tailwind-fold.unfoldedTextOpacity": 0.5,
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on"
+  },
+  "editor.quickSuggestionsDelay": 5,
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "search.quickOpen.includeSymbols": true,
+  "emmet.useInlineCompletions": true,
+  "search.quickAccess.preserveInput": true,
+  "task.quickOpen.showAll": true,
+  "tailwindcss-intellisense.trace.server": "messages",
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    "class:list",
+    "classes"
+  ],
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.lint.cssConflict": "error",
+  "tailwind-fold.unfoldIfLineSelected": true,
+  "editor.fontVariations": true,
+  "editor.tokenColorCustomizations":  {
+    "textMateRules": [
+        {
+            "scope": [
+                // the following elements will be in italic
+                //   (=Fira Code iScript)
+                "comment",
+                "keyword",
+                "keyword.control.import.js", // import
+                "keyword.control.export.js", // export
+                "keyword.control.from.js", // from
+                // "constant", // String, Number, Boolean…, this, super
+                "storage.modifier", // static keyword
+                "storage.type.class", // class keyword
+                "storage.type.php", // typehints in methods keyword
+                "keyword.other.new.php", // new
+                "entity.other.attribute-name", // html attributes
+                "fenced_code.block.language.markdown" // markdown language modifier
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                // the following elements will be displayed in bold
+                "entity.name.type.class" // class names
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                // the following elements will be displayed in bold and italic
+                "entity.name.section.markdown" // markdown headlines
+            ],
+            "settings": {
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "scope": [
+                // the following elements will be excluded from italics
+                //   (VSCode has some defaults for italics)
+                "invalid",
+                "keyword.operator",
+                "constant.numeric.css",
+                "keyword.other.unit.px.css",
+                "constant.numeric.decimal.js",
+                "constant.numeric.json",
+                "comment.block",
+                "entity.other.attribute-name.class.css"
+            ],
+            "settings": {
+                "fontStyle": ""
+            }
+        }
+    ]
+},
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "diffEditor.codeLens": true,
+  "diffEditor.experimental.showMoves": true,
+  "diffEditor.experimental.useTrueInlineView": true,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "editor.inlineSuggest.edits.showCollapsed": true,
   "editor.inlineSuggest.suppressSuggestions": true,
   "editor.suggest.preview": true,
-  "editor.guides.indentation": true,
-  "editor.suggestSelection": "recentlyUsed",
+  "editor.suggest.shareSuggestSelections": true,
+  "editor.suggest.showStatusBar": true,
+  "files.autoGuessEncoding": true,
+  "files.autoSave": "afterDelay",
   "files.autoSaveWhenNoErrors": true,
   "files.autoSaveWorkspaceFilesOnly": true,
   "files.insertFinalNewline": true,
-  "RainbowBrackets.depreciation-notice": true,
-  "editor.fontSize": 15,
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-
-  // Vim Mode Settings
-  "vim.camelCaseMotion.enable": true,
-  "vim.easymotion": true,
-  "vim.enableNeovim": true,
-  "vim.smartRelativeLine": true,
-  "vim.highlightedyank.enable": true,
-  "vim.hlsearch": true,
-  "vim.autoindent": true,
-  "vim.autoSwitchInputMethod.enable": true,
-  "vim.statusBarColorControl": true,
-  "css.format.spaceAroundSelectorSeparator": true,
-  "less.format.spaceAroundSelectorSeparator": true,
-  "scss.format.spaceAroundSelectorSeparator": true,
-  "emmet.showSuggestionsAsSnippets": true,
-  "emmet.triggerExpansionOnTab": true,
-  "emmet.useInlineCompletions": true,
-  "reactSnippets.settings.prettierEnabled": true,
-  "javascript.experimental.updateImportsOnPaste": true,
-  "javascript.format.insertSpaceAfterConstructor": true,
+  "files.readonlyFromPermissions": true,
+  "files.simpleDialog.enable": true,
+  "notebook.output.wordWrap": true,
+  "chat.editor.wordWrap": "on",
+  "workbench.editor.wrapTabs": true,
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "git.followTagsWhenSync": true,
+  "git.rebaseWhenSync": true,
+  "settingsSync.ignoredExtensions": [],
+  "editor.experimental.asyncTokenizationVerification": true,
+  "editor.experimental.asyncTokenizationLogging": true,
+  "editor.inlayHints.fontFamily": "Fira Code iScript",
+  "editor.codeLensFontSize": 1,
+  "editor.fontSize": 24,
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingComments": "always",
+  "editor.autoClosingQuotes": "always",
+  "gulp.autoDetect": "on",
+  "grunt.autoDetect": "on",
+  "git.autoStash": true,
+  "editor.wordWrap": "on",
+  "editor.wordBreak": "keepAll",
+  "diffEditor.wordWrap": "on",
+  "intellij-idea-keybindings.useCamelHumpsWords": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-
-  // type scripts settings
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.autoIndent": "full",
-    "editor.bracketPairColorization.enabled": true,
-    "editor.cursorWidth": 0,
-    "editor.detectIndentation": true,
-    "editor.dropIntoEditor.enabled": true,
-    "editor.find.loop": true,
-    "editor.foldingImportsByDefault": true,
-    "editor.suggest.showDelay": 0,
-    "editor.hover.above": true,
-    "editor.suggest.snippetsPreventQuickSuggestions": true
-  },
-  "editor.cursorBlinking": "smooth",
-  "terminal.integrated.cursorBlinking": true,
-  "workbench.sideBar.location": "right",
-  "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.minimap.enabled": false,
-  "editor.autoIndent": "advanced",
-  "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
-  "terminal.integrated.fontFamily": "JetBrains Mono, 'Courier New",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.bracketPairColorization.enabled": true,
-  "editor.multiCursorPaste": "full",
-  "editor.cursorWidth": 2,
-  "editor.suggest.showVariables": true,
-  "editor.suggest.showColors": true,
-  "window.dialogStyle": "custom",
-  "editor.formatOnPaste": true,
-  "editor.fontLigatures": true,
-  "javascript.autoClosingTags": true,
-  "javascript.format.semicolons": "insert",
-  "typescript.autoClosingTags": true,
-  "typescript.suggest.autoImports": true,
-  "workbench.editor.showIcons": true,
-  // "workbench.tree.indent": 8,
-  "workbench.editor.mouseBackForwardToNavigate": true,
-  "prettier.enable": true,
-  "workbench.settings.editor": "ui",
-  "workbench.view.alwaysShowHeaderActions": false,
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.editor.pinnedTabsOnSeparateRow": true,
-  "workbench.editor.scrollToSwitchTabs": true,
-  "editor.autoClosingBrackets": "always",
-  "editor.autoClosingQuotes": "always",
-  "workbench.editor.openPositioning": "left",
-  "editor.tabCompletion": "on",
-  "files.autoSaveDelay": 1,
-  "files.autoGuessEncoding": true,
-  "[jsonc]": {
+  "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.statusBar.visible": true,
-  "diffEditor.wordWrap": "on",
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "hidden",
-  "editor.smoothScrolling": true,
-  "workbench.list.smoothScrolling": true,
-  "terminal.integrated.smoothScrolling": true,
-  "terminal.integrated.stickyScroll.enabled": true,
-  "workbench.editor.closeOnFileDelete": true,
-  "pieces.autocomplete": true,
-  "pieces.autocompleteKey": "Enter or Tab",
-  "pieces.display": "Preview",
-  "editor.scrollbar.horizontalScrollbarSize": 0,
-  "editor.scrollbar.verticalScrollbarSize": 0,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "pieces.cloudCapabilities": "Blended",
-  "pieces.telemetry": true
+  "pieces.telemetry": true,
+  "notebook.formatOnSave.enabled": true,
+  "notebook.globalToolbarShowLabel": "dynamic",
+  "notebook.markup.fontFamily": "'Fira Code'",
+  "supermaven.enable": {
+    "ini": false
+  },
+  "window.menuBarVisibility": "toggle",
+  "workbench.editor.showTabs": "single",
+  "workbench.startupEditor": "readme",
+  "workbench.tips.enabled": false,
+  "breadcrumbs.enabled": false,
+  "material-icon-theme.hidesExplorerArrows": true,
+  "editor.inlineSuggest.fontFamily": "'Fira Code iScript'",
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.indent": 8,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.decorations.badges": false,
+  "workbench.editor.enablePreview": false,
+  "window.customTitleBarVisibility": "never",
+  "window.titleBarStyle": "native",
+  "workbench.editor.decorations.colors": false,
+  "custom-ui-style.background.opacity": 0.8,
+  "custom-ui-style.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 20,
+      "y": 26
+    }
+  },
+  "custom-ui-style.stylesheet": {
+    ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px; background:transpirant",
+    ".notification-toast": "box-shadow: none !important",
+    ".quick-input-widget.show-file-icons": "box-shadow: none !important",
+    ".quick-input-widget": "top: 25vh !important",
+    ".quick-input-list .scrollbar": "display: none",
+    ".monaco-action-bar.quick-input-inline-action-bar": "display: none",
+    ".editor-widget.find-widget": "box-shadow: none; border-radius: 4px",
+    ".quick-input-titlebar": "background: #100B15 !important",
+    ".monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after": "display: none",
+    ".monaco-scrollable-element > .shadow.top": "display: none",
+    ".sidebar .title-label": "padding: 0 !important",
+    ".sidebar": "border: none !important",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+    ".monaco-list-row.focused": "outline: none !important",
+    ".monaco-editor .scroll-decoration": "display: none",
+    ".title-actions": "display: none !important",
+    ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
+    ".title .monaco-icon-label:after": "margin-right: 0",
+    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
+  },
+  "custom-ui-style.font.sansSerif": "Dank Mono",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "block",
+
+  "editor.stickyScroll.enabled": false,
+  "editor.colorDecorators": true,
+  "editor.codeLens": true,
+  "editor.links": true,
+  "editor.matchBrackets": "always",
+  "editor.parameterHints.enabled": false,
+  "editor.lightbulb.enabled": "onCode",
+  "editor.hover.enabled": true,
+  "files.trimTrailingWhitespace": true,
+  "scm.diffDecorations": "overview",
+  "editor.lineNumbers": "relative",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": true,
+  "editor.showFoldingControls": "mouseover",
+  "editor.guides.indentation": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderLineHighlight": "none",
+  "editor.occurrencesHighlight": "off",
+  "editor.selectionHighlight": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  "emmet.triggerExpansionOnTab": true,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "workbench.statusBar.visible": false,
+  "editor.lineHeight": 2
 }
