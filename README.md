@@ -1,9 +1,6 @@
-
-
-<h1 align="center" style="font-size:3rem" >Hi 👋! My name is MRADUL KUMAR KATIYAR 😇 and I'm a Software Developer</h1>
-<h1 align="center" style="height:53rem"><img align="center" width="50%" height="100%" style="border-radius:30px; padding:1rem ;border:2px solid white" src="assets/images/profile.jpg"/></h1>
-<img align="center" width="100%" style="border:2px solid white; border-radius:20px; padding:1rem" src="https://profile-counter.glitch.me/karelaking/count.svg?"  />
-<h3 align="center"> ✨✨ A passionate software developer from India ✨✨</h3>
+<p align="center"">
+  <img alt="MRADUL KUMAR KATIYAR" src="https://shieldcn.dev/header/dots.svg?title=MRADUL+KUMAR+KATIYAR&subtitle=Software+Developer+experienced+in+building+open-source+developer+tools%2C+optimizing+backend+data+structures%2C+and+automating+databases.&mode=dark&theme=zinc">
+</p>
 
 
 [//]: # (<p align="left"> <img src="https://komarev.com/ghpvc/?username=karelaking&label=Profile%20views&color=0e75b6&style=flat" alt="karelaking" /> </p>)
