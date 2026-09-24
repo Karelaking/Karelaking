@@ -22,3 +22,5 @@
     <img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
   </a>
 </p>
+<p align="center">Software Developer and experienced in building open-source developer tools, optimizing backend data structures, and automating
+database schemas. Passionate about streamlining frontend architectures and delivering high-performance web applications</p>
